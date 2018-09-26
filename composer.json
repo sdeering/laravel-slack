@@ -1,6 +1,6 @@
 {
-    "name": "gpressutto5/laravel-slack",
-    "description": "Slack notification for Laravel as it should be.",
+    "name": "tigran-cl/laravel-slack",
+    "description": "Forked laravel-slack.",
     "keywords": ["laravel", "slack"],
     "type": "library",
     "license": "MIT",
@@ -8,6 +8,9 @@
         {
             "name": "Guilherme Pressutto",
             "email": "gpressutto5@gmail.com"
+        },
+        {
+            "name": "tigran-cl"
         }
     ],
     "require": {

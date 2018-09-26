@@ -11,9 +11,12 @@ return [
     | into Slack. You can read more about it and how to create yours
     | here: https://api.slack.com/incoming-webhooks
     |
+    | Add channels to this array that you'll pass in as the recipient in the Slack::to($recipient) function.
+    | ex. #bostonlogger => env(BOSTONLOGGER_WEBHOOK_URL, '')
+    |
     */
 
-    'slack_webhook_url' => env('SLACK_WEBHOOK_URL', ''),
+    'slack_webhook_urls' => [],
 
     /*
     |--------------------------------------------------------------------------
