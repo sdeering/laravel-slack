@@ -91,7 +91,7 @@ class Slack
         }
     }
 
-    protected function notify(SlackMessage $slackMessage)
+    public function notify(SlackMessage $slackMessage)
     {
         $this->anonymousNotifiable->notify(new SimpleSlack($slackMessage));
     }
