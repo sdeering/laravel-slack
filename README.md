@@ -51,6 +51,4 @@ like so in laravel-slack.php (the published config file) :
 ```
 
 So when you do \Slack::to('#channel1'), it will use the webhook URL you configured for it.
-A4THj#j2Cit4
-A4THj#j2Cit4
 For the original package see https://github.com/gpressutto5/laravel-slack
