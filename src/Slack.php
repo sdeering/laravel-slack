@@ -51,7 +51,7 @@ class Slack
      */
     public function to($recipient): self
     {
-        if($this->config["slack_webhook_urls"][$recipient]) {
+        if(!empty($this->config["slack_webhook_urls"][$recipient])) {
             $this->anonymousNotifiable = \Notification::route('slack', $this->config["slack_webhook_urls"][$recipient]);
         } else {
             throw new \InvalidArgumentException("That slack channel doesn't have a webhook URL associated with it in your laravel-slack config.");
