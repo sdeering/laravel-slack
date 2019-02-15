@@ -1,5 +1,5 @@
 {
-    "name": "tigran-cl/laravel-slack",
+    "name": "sdeering/laravel-slack",
     "description": "Forked laravel-slack.",
     "keywords": ["laravel", "slack"],
     "type": "library",
@@ -10,7 +10,7 @@
             "email": "gpressutto5@gmail.com"
         },
         {
-            "name": "tigran-cl"
+            "name": "sdeering"
         }
     ],
     "require": {
